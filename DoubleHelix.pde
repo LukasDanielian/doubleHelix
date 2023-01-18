@@ -43,8 +43,6 @@ void draw()
   boxList.add(new boxes(x, z));
   boxList.add(new boxes(x2, z2));
   boxList.add(new boxes(x2, z2));
-  boxList.add(new boxes(0, 0));
-  boxList.add(new boxes(0, 0));
 
   for (int i = 0; i < boxList.size(); i++)
   {
@@ -58,7 +56,6 @@ void draw()
   fill(0);
   stroke(0);
   strokeWeight(10);
-  line(x, height+25, z, x2, height+25, z2);
 }
 
 class boxes
